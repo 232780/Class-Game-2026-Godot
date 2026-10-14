@@ -1,0 +1,51 @@
+[gd_scene format=3 uid="uid://ppr0et1a5pn1"]
+
+[ext_resource type="Script" uid="uid://cd2hfdl70twre" path="res://audio_manager.gd" id="1_jisk1"]
+[ext_resource type="PackedScene" uid="uid://ceci4fhh0g2hb" path="res://audio_oneshot.tscn" id="2_wby2p"]
+
+[node name="audio_manager" type="Node" unique_id=224815698 node_paths=PackedStringArray("music", "sfx")]
+script = ExtResource("1_jisk1")
+music = NodePath("music")
+sfx = NodePath("sfx")
+audio_one_scene = ExtResource("2_wby2p")
+
+[node name="music" type="Node" parent="." unique_id=1244756397]
+
+[node name="Boss1" type="AudioStreamPlayer" parent="music" unique_id=1244224550]
+
+[node name="Boss2(mangoMaybe)" type="AudioStreamPlayer" parent="music" unique_id=1881549085]
+
+[node name="FinalBossPleaseGiveInput" type="AudioStreamPlayer" parent="music" unique_id=994352068]
+
+[node name="FreeCandy" type="AudioStreamPlayer" parent="music" unique_id=1116581445]
+
+[node name="Lastminutechange" type="AudioStreamPlayer" parent="music" unique_id=2061703545]
+volume_db = -3.792
+
+[node name="LevelSelect" type="AudioStreamPlayer" parent="music" unique_id=1200959558]
+
+[node name="MainMenu" type="AudioStreamPlayer" parent="music" unique_id=651430141]
+
+[node name="Mango67" type="AudioStreamPlayer" parent="music" unique_id=358705237]
+
+[node name="NumbDigger" type="AudioStreamPlayer" parent="music" unique_id=1849837290]
+
+[node name="Untitled67" type="AudioStreamPlayer" parent="music" unique_id=1575546725]
+
+[node name="UntitledSomething" type="AudioStreamPlayer" parent="music" unique_id=1747901988]
+
+[node name="Battle" type="AudioStreamPlayer" parent="music" unique_id=1400116524]
+
+[node name="death" type="AudioStreamPlayer" parent="music" unique_id=989608151]
+
+[node name="zemonke" type="AudioStreamPlayer" parent="music" unique_id=1409402969]
+
+[node name="Kevin" type="AudioStreamPlayer" parent="music" unique_id=430555650]
+
+[node name="bok choi" type="AudioStreamPlayer" parent="music" unique_id=886830501]
+
+[node name="kallum" type="AudioStreamPlayer" parent="music" unique_id=670662364]
+
+[node name="BananaLoreRemix" type="AudioStreamPlayer" parent="music" unique_id=20986775]
+
+[node name="sfx" type="Node" parent="." unique_id=2134736088]
